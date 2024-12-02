@@ -30,10 +30,14 @@
   </section>
 
   <section class="donations" id="donate">
-    <h2>Support the Future of Health Innovation</h2>
-    <p>Your donations help us fund groundbreaking research and develop life-changing technologies.</p>
-    <button class="donate-button">Donate Now</button>
-  </section>
+  <h2>Support the Future of Health Innovation</h2>
+  <p>Your contributions help fund groundbreaking research and develop life-changing technologies.</p>
+  <form action="https://www.paypal.com/donate" method="post" target="_blank">
+    <label for="donation-amount">Enter Donation Amount:</label>
+    <input type="number" id="donation-amount" name="amount" min="1" placeholder="Enter amount" required>
+    <button type="submit" class="donate-button">Donate Now</button>
+  </form>
+</section>
 
   <footer>
     <p>© 2024 Resonova Biotech. All Rights Reserved.</p>
