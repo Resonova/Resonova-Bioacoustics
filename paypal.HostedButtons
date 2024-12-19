@@ -1,7 +1,0 @@
-<script src="https://www.paypal.com/sdk/js?client-id=BAAvWjghIpRVamS2O8NFTzHlo4-7CbyT2Sy2Wss43SRiJz_SsptVAAhYFD6Eappn3FWqWkn5ojgTeFlTx8&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
-<div id="paypal-container-YNVRMMXY44LHG"></div>
-<script>
-  paypal.HostedButtons({
-    hostedButtonId: "YNVRMMXY44LHG",
-  }).render("#paypal-container-YNVRMMXY44LHG")
-</script>
